@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Instrument+Sans&family=Montserrat&family=Open+Sans:wght@700&family=Oswald:wght@300&family=Poppins:ital,wght@0,400;1,300&family=Raleway:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* navbar */
+.nav-item a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    transition: all 0.4s;
+}
+.nav-item a:hover{
+    color:darkgreen;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+}
+#search{
+    height:45px;
+    outline: none;
+    border: 2px solid rgb(162, 226, 162) ;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    box-shadow: none;
+    
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color:  rgb(11, 167, 11);
+    color:white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+/* main */
+.main{
+    background: url(./images/apples-g6834a8585_1280.jpg) no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
+.btn2{
+   height: 50px;
+   width: 25%;
+   outline:none;
+   border:none;
+   color:white;
+   border-radius: 50px;
+   transition:  all 0.4s;
+  
+}
+.about{
+    height: 100vh;
+    width:100%;
+}
+/* .btn3{
+    height:45px;
+    outline: none;
+   border:none;
+   padding: 10px;
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    border-right: none;
+    box-shadow: none;
+} */
+.img-fluid{
+    height:50px;
+    width:100%;
+}
+.card{
+    min-height: 50px;
+  
+}
+.card:hover{
+    box-shadow: 10px 13px 16px 7px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 10px 13px 16px 7px rgba(0,0,0,0.74);
+    -moz-box-shadow: 10px 13px 16px 7px rgba(0,0,0,0.74);
+}
+
+.main2{
+    background: url(./images/fruit-g680a28f3d_1280.jpg) no-repeat;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    
+}
