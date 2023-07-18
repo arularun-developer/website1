@@ -80,11 +80,7 @@
     min-height: 50px;
   
 }
-.card:hover{
-    box-shadow: 10px 13px 16px 7px rgba(0,0,0,0.74);
-    -webkit-box-shadow: 10px 13px 16px 7px rgba(0,0,0,0.74);
-    -moz-box-shadow: 10px 13px 16px 7px rgba(0,0,0,0.74);
-}
+
 
 .main2{
     background: url(./images/fruit-g680a28f3d_1280.jpg) no-repeat;
